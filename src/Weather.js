@@ -1,5 +1,6 @@
 import React, {useState} from "react"
 
+
 import WeatherInfo from "./WeatherInfo"
 import "./Weather.css";
 import axios from "axios";
@@ -9,6 +10,7 @@ export default function Weather(props) {
     const [city, setCity] = useState(props.defaultCity);
 
     function handleResponse(response) {
+        console.log(response.data);
         
 
         setWeatherData({
@@ -19,7 +21,7 @@ export default function Weather(props) {
             temperature: response.data.temperature.current,
             wind: response.data.wind.speed,
             humidity: response.data.temperature.humidity,
-            iconUrl: "https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png" 
+            icon: response.data.condition.icon
           
         });
     }
