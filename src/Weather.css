@@ -21,19 +21,19 @@
 }
 
 .Weather li {
-font-size: 16px;
-font-weight: 100;
-line-height: 19px;
-list-style: none;
+    font-size: 16px;
+    font-weight: 100;
+    line-height: 19px;
+    list-style: none;
 }
 
 .Weather canvas {
-    height: 64px;
-    width: 64px;
+   
     margin-right: 10px;
     display: inline-block;
     position: relative;
-    bottom: -9px;
+    bottom: -4px;
+    left: 4px;
 }
 
 .Weather .temperature {
