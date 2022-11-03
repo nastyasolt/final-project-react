@@ -4,9 +4,8 @@
     padding: 16px;
     border-radius: 4px;
     color: rgb(135, 135, 135);
-    
+   
 }
-
 
 .Weather h1 {
     font-size: 24px;
@@ -28,7 +27,6 @@
 }
 
 .Weather canvas {
-   
     margin-right: 10px;
     display: inline-block;
     position: relative;
@@ -42,6 +40,8 @@
     font-size: 64px;
     line-height: 64px;
     font-weight: 400;
+    
+   
 }
 
 .Weather .unit {
@@ -51,5 +51,13 @@
     position: relative;
     line-height: 1;
     top: -34px;
-    margin-left: 0px;
+    
+}
+
+.btn-primary {
+    margin: 0 auto;
+}
+
+.WeatherForecast {
+    padding: 40px 0 0 0;
 }
