@@ -1,9 +1,9 @@
 .Weather {
     font-family: arial, sans-serif;
-    border: 1px solid #dadde1;
-    padding: 16px;
-    border-radius: 4px;
-    color: rgb(135, 135, 135);
+    padding: 36px;
+    border-radius: 30px;
+    color: rgb(255, 255, 255);
+    background-image: linear-gradient(120deg, #74a9ff44 0%, #81d1f723 100%);
    
 }
 
@@ -36,7 +36,7 @@
 
 .Weather .temperature {
     font-weight: bold;
-    color: rgb(33, 33, 33);
+    color: #ffffff;
     font-size: 64px;
     line-height: 64px;
     font-weight: 400;
@@ -45,7 +45,7 @@
 }
 
 .Weather .unit {
-    color: rgb(33, 33, 33);
+    color: #ffffff;
     font-size: 16px;
     font-weight: 400;
     position: relative;
@@ -55,7 +55,13 @@
 }
 
 .btn-primary {
-    margin: 0 auto;
+    color: white;
+    background-color: rgba(240, 248, 255, 0.13);
+    border: none;
+}
+
+.btn-primary :hover {
+    color: rgb(219, 171, 209)!important;
 }
 
 .WeatherForecast {
