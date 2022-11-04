@@ -5,6 +5,7 @@
     color: rgb(255, 255, 255);
     background-image: linear-gradient(120deg, #74a9ff44 0%, #81d1f723 100%);
    backdrop-filter: blur(20px);
+  
 }
 
 .Weather h1 {
