@@ -8,7 +8,7 @@ export default function App() {
       <div className="container">
       <Weather defaultCity="Lviv" />
     <footer>
-      This project was coded by Anastasiia Soltysiak and is {" "}
+      This project was coded by <a href="https://www.linkedin.com/in/anastasiia-soltysiak-13a754119/" target="_blank" rel="noreferrer">Anastasiia Soltysiak</a> and is {" "}
        <a href="https://github.com/nastyasolt/final-project-react" 
        target="_blank" 
        rel="noreferrer">
